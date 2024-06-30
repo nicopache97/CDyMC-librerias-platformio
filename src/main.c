@@ -3,7 +3,7 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-#include "serialPort.h"
+#include "SerialPort.h"
 #include "comand_interface.h"
 
 char mensaje_recibido[buffer_leng];

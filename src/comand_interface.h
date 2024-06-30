@@ -2,7 +2,7 @@
 #ifndef COMAND_INTERFACE_H_
 	#define COMAND_INTERFACE_H_ 	// usa libreria serial port, e interrupciones USART_RX_vect 
 
-	#include "serialPort.h"
+	#include "SerialPort.h"
 	#define BR9600 (0x67)	// 0x67=103 configura BAUDRATE=9600@16MHz
 
 	#define buffer_leng 30 // tamaño buffer de caracteres interno
